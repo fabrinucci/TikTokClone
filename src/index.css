@@ -10,6 +10,13 @@
   font-weight: 600;
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
